@@ -163,7 +163,8 @@ fileInput.addEventListener('change', (event) => {
         const errors = validateKanjiDatabase(data, fileContent);
 
         if (errors.length === 0) {
-          resultDiv.innerHTML = '<p style="color: green;">No issues found. The database is valid.</p>';
+          resultDiv.innerHTML = `<p style="color: green;">No issues found. The database is valid.</p>
+                                 <p style="color: #333;">Number of kanji entries: ${data.length}</p>`;
         } else {
           resultDiv.innerHTML = '<p style="color: red;">Issues found:</p><pre>' + errors.join('\n') + '</pre>';
         }
@@ -174,6 +175,9 @@ fileInput.addEventListener('change', (event) => {
     reader.readAsText(file);
   }
 });
+
+
+
 
   </script>
 </body>
