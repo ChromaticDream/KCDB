@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kanji Validator</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f1f1ef;
+      color: #333;
+    }
+    header {
+      background-image: url('./checkchan.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 256px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #333;
+    }
+    .container {
+      padding: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+      background: #fff;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+    h1 {
+      text-align: center;
+      color: #555;
+    }
+    input[type="file"] {
+      display: block;
+      margin: 20px auto;
+    }
+    #result {
+      margin-top: 20px;
+      padding: 10px;
+      border-radius: 5px;
+      background: #f9f9f9;
+      font-family: 'Courier New', monospace;
+      white-space: pre-wrap;
+    }
+    #result p {
+      margin: 0;
+    }
+    #result pre {
+      color: red;
+      margin-top: 10px;
+      padding: 10px;
+      background: #ffe5e5;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header></header>
+  <div class="container">
+    <h1>Validate Your Kanji Database</h1>
+    <input type="file" id="fileInput">
+    <div id="result"></div>
+  </div>
+  <script>
+// Kanji Database Integrity Checker (Browser Version)
+
+// Define validation rules for each field
+const rules = {
+  kanji: value => value === undefined || (typeof value === 'string' && value.length === 1),
+  meaning: value => value === undefined || (typeof value === 'string' && /^[a-zA-Z ,\-\(\)]*$/.test(value)),
+  onyomi: value => value === undefined || (typeof value === 'string' && /^[\u3040-\u309F ;]*$/.test(value)),
+  kunyomi: value => value === undefined || (typeof value === 'string' && /^[\u3040-\u309F ;]*$/.test(value)),
+  mnemonic: value => value === undefined || (typeof value === 'string' && value.trim().length >= 0),
+  onyomi_sentences: value => value === undefined || (Array.isArray(value) && value.every(sentence => 
+    sentence.word && sentence.word.split(';').length === 3 && sentence.word.includes('{') && sentence.word.includes('}') &&
+    sentence.sentence && sentence.sentence.split(';').length === 3 && sentence.sentence.includes('{') && sentence.sentence.includes('}')
+  )),
+  kunyomi_sentences: value => value === undefined || (Array.isArray(value) && value.every(sentence => 
+    sentence.word && sentence.word.split(';').length === 3 && sentence.word.includes('{') && sentence.word.includes('}') &&
+    sentence.sentence && sentence.sentence.split(';').length === 3 && sentence.sentence.includes('{') && sentence.sentence.includes('}')
+  )),
+  lookalike_kanji: value => value === undefined || (typeof value === 'string' && /^[\u4E00-\u9FFF ;]*$/.test(value))
+};
+
+// Function to validate each kanji entry
+function validateKanjiEntry(entry, entryStartLine, lines) {
+  const errors = [];
+
+  for (const [key, validate] of Object.entries(rules)) {
+    if (!validate(entry[key])) {
+      const fieldLineNumber = findFieldLineNumber(lines, entryStartLine, key);
+      if (key === 'meaning' || key === 'onyomi' || key === 'kunyomi' || key === 'lookalike_kanji') {
+        const invalidChars = entry[key]?.split('').filter(char => !rules[key](char)).join('');
+        errors.push(`Line ${fieldLineNumber}: Invalid value for '${key}' in kanji ${entry.kanji}. Problematic character(s): '${invalidChars}'`);
+      } else {
+        errors.push(`Line ${fieldLineNumber}: Invalid value for '${key}' in kanji ${entry.kanji}.`);
+      }
+    }
+  }
+
+  return errors;
+}
+
+// Main validation function
+function validateKanjiDatabase(data, fileContent) {
+  const allErrors = [];
+  const lines = fileContent.split('\n');
+
+  data.forEach((entry, index) => {
+    const entryStartLine = findEntryStartLine(lines, entry);
+    const entryErrors = validateKanjiEntry(entry, entryStartLine, lines);
+    allErrors.push(...entryErrors);
+  });
+
+  return allErrors;
+}
+
+// Helper function to find the start line of an entry
+function findEntryStartLine(lines, entry) {
+  const entrySnippet = `"kanji": "${entry.kanji}"`;
+  for (let i = 0; i < lines.length; i++) {
+    if (lines[i].includes(entrySnippet)) {
+      return i + 1;
+    }
+  }
+  return -1; // Return -1 if the start line is not found
+}
+
+// Helper function to find the line number of a specific field
+function findFieldLineNumber(lines, entryStartLine, fieldKey) {
+  for (let i = entryStartLine - 1; i < lines.length; i++) {
+    if (lines[i].includes(`"${fieldKey}":`)) {
+      return i + 1;
+    }
+  }
+  return entryStartLine; // Default to the entry start line if not found
+}
+
+// HTML Elements
+const fileInput = document.getElementById('fileInput');
+const resultDiv = document.getElementById('result');
+
+fileInput.addEventListener('change', (event) => {
+  const file = event.target.files[0];
+  if (file) {
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      try {
+        const fileContent = e.target.result;
+        const data = JSON.parse(fileContent);
+
+        if (!Array.isArray(data)) {
+          resultDiv.innerHTML = '<p style="color: red;">Error: Database is not an array.</p>';
+          return;
+        }
+
+        const errors = validateKanjiDatabase(data, fileContent);
+
+        if (errors.length === 0) {
+          resultDiv.innerHTML = '<p style="color: green;">No issues found. The database is valid.</p>';
+        } else {
+          resultDiv.innerHTML = '<p style="color: red;">Issues found:</p><pre>' + errors.join('\n') + '</pre>';
+        }
+      } catch (err) {
+        resultDiv.innerHTML = '<p style="color: red;">Error: Failed to parse JSON. ' + err.message + '</p>';
+      }
+    };
+    reader.readAsText(file);
+  }
+});
+
+  </script>
+</body>
+</html>
