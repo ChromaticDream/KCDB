@@ -1,1 +1,200 @@
-
+[
+    {
+      "kanji": "政",
+      "meaning": "politics, government",
+      "onyomi": "せい, しょう",
+      "kunyomi": "まつりごと",
+      "mnemonic": "Politicians are like benevolent directors that SAY laws which are correct. That's why there are no problems in the world today.",
+      "onyomi_sentences": [
+        {
+          "word": "{政治} ; {せいじ} ; politics",
+          "sentence": "{政治}について話し合いましょう。; {せいじ}についてはなしあいましょう。; Let's discuss politics."
+        },
+        {
+          "word": "{政党} ; {せいとう} ; political party",
+          "sentence": "{政党}に所属していますか。; {せいとう}にしょぞくしていますか。; Are you a member of a political party?"
+        }
+      ],
+      "kunyomi_sentences": [
+        {
+          "word": "{政} ; {まつりごと} ; government (archaic)",
+          "sentence": "古代の{政}は王が決めました。; こだいの{まつりごと}はおうがきめました。; In ancient times, the government was decided by the king."
+        }
+      ],
+      "lookalike_kanji": "正 ; 敬 ; 故"
+    },
+    {
+      "kanji": "議",
+      "meaning": "discussion, debate",
+      "onyomi": "ぎ",
+      "kunyomi": "",
+      "mnemonic": "The kanji combines 言 (words, speech) with 義 (justice, righteousness). this discussion becomes righteous!",
+      "onyomi_sentences": [
+        {
+          "word": "{会議} ; {かいぎ} ; meeting, conference",
+          "sentence": "{会議}は午後三時に始まります。; {かいぎ}はごごさんじにはじまります。; The meeting starts at 3 PM."
+        },
+        {
+          "word": "{議論} ; {ぎろん} ; debate, argument",
+          "sentence": "{議論}が白熱しました。; {ぎろん}がはくねつしました。; The debate became heated."
+        }
+      ],
+      "kunyomi_sentences": [],
+      "lookalike_kanji": "義 ; 言 ; 識"
+    },
+    {
+      "kanji": "対",
+      "meaning": "opposite, versus, compare",
+      "onyomi": "たい",
+      "kunyomi": "",
+      "mnemonic": "a lid placed on メ ( look like a weird scale ) and radical 寸 ( measurement ), got the picture now ?",
+      "onyomi_sentences": [
+        {
+          "word": "{反対} ; {はんたい} ; opposition",
+          "sentence": "彼の提案に{反対}しました。; かれのていあんに{はんたい}しました。; I opposed his proposal."
+        },
+        {
+          "word": "{対策} ; {たいさく} ; measure, countermeasure",
+          "sentence": "この問題の{対策}を考えましょう。; このもんだいの{たいさく}をかんがえましょう。; Let's think of countermeasures for this issue."
+        },
+        {
+          "word": "{対象} ; {たいしょう} ; target, object",
+          "sentence": "この商品は若者を{対象}にしています。; このしょうひんはわかものを{たいしょう}にしています。; This product is targeted at young people."
+        },
+        {
+          "word": "{対立} ; {たいりつ} ; confrontation, conflict",
+          "sentence": "二つの意見が{対立}しています。; ふたつのいけんが{たいりつ}しています。; The two opinions are in conflict."
+        }
+      ],
+      "kunyomi_sentences": [],
+      "lookalike_kanji": "対 ; 丸 ; 文"
+    },
+    {
+      "kanji": "合",
+      "meaning": "to fit, join, combine",
+      "onyomi": "ごう",
+      "kunyomi": "あう, あい, あわせる",
+      "mnemonic": "ONE roof per mouth 口 seem suitable, don't you think so ?",
+      "onyomi_sentences": [
+        {
+          "word": "{合計} ; {ごうけい} ; total, sum",
+          "sentence": "商品の{合計}を計算してください。; しょうひんの{ごうけい}をけいさんしてください。; Please calculate the total for the goods."
+        },
+        {
+          "word": "{合格} ; {ごうかく} ; passing (an exam), success",
+          "sentence": "彼は試験に{合格}しました。; かれはしけんに{ごうかく}しました。; He passed the exam."
+        }
+      ],
+      "kunyomi_sentences": [
+        {
+          "word": "{合う} ; {あう} ; to match, to fit",
+          "sentence": "このシャツは私に{合い}ません。; このシャツはわたしに{あい}ません。; This shirt doesn’t fit me."
+        },
+        {
+          "word": "{似合う} ; {にあう} ; to suit, to look good on",
+          "sentence": "そのドレスは君によく{似合う}ね。; そのドレスはきみによく{にあう}ね。; That dress really suits you."
+        },
+        {
+          "word": "{合わせる} ; {あわせる} ; to combine, to adjust",
+          "sentence": "みんなで力を{合わせて}頑張りましょう。; みんなでちからを{あわせて}がんばりましょう。; Let’s combine our efforts and do our best."
+        },  
+        {
+          "word": "{試合} ; {しあい} ; match, game",
+          "sentence": "今日のサッカー{試合}はとても面白かった。; きょうのサッカー{しあい}はとてもおもしろかった。; Today’s soccer match was very exciting."
+        },
+        {
+          "word": "{場合} ; {ばあい} ; case, situation",
+          "sentence": "雨が降った{場合}は中止です。; あめがふった{ばあい}はちゅうしです。; In case of rain, it will be canceled."
+        }
+      ],
+      "lookalike_kanji": "会 ; 同 ; 含"
+    },
+    {
+      "kanji": "市",
+      "meaning": "city, market",
+      "onyomi": "し",
+      "kunyomi": "いち",
+      "mnemonic": "looks like a merchant with a hat and long arm standing in the city, a seller in the market",
+      "onyomi_sentences": [
+        {
+          "word": "{都市} ; {とし} ; city",
+          "sentence": "この{都市}は歴史がとても古いです。; この{とし}はれきしがとてもふるいです。; This city has a very old history."
+        },
+        {
+          "word": "{市民} ; {しみん} ; citizen",
+          "sentence": "{市民}として責任を果たします。; {しみん}としてせきにんをはたします。; I will fulfill my responsibilities as a citizen."
+        },
+        {
+          "word": "{市長} ; {しちょう} ; mayor",
+          "sentence": "新しい{市長}が選ばれました。; あたらしい{しちょう}がえらばれました。; A new mayor has been elected."
+        }
+      ],
+      "kunyomi_sentences": [
+        {
+          "word": "{市場} ; {いちば} ; market",
+          "sentence": "朝{市場}で新鮮な野菜を買いました。; あさいちばでしんせんなやさいをかいました。; I bought fresh vegetables at the morning market."
+        }
+      ],
+      "lookalike_kanji": "町, 村, 師"
+    },
+    {
+      "kanji": "内",
+      "meaning": "inside, within",
+      "onyomi": "ない",
+      "kunyomi": "うち",
+      "mnemonic": "a person (入) inside a box (冂), you should check if it's still breathing",
+      "onyomi_sentences": [
+        {
+          "word": "{内容} ; {ないよう} ; content, details",
+          "sentence": "レポートの{内容}を確認してください。; れぽーとの{ないよう}をかくにんしてください。; Please check the contents of the report."
+        },
+        {
+          "word": "{案内} ; {あんない} ; guidance, information",
+          "sentence": "観光地を{案内}してくれますか。; かんこうちを{あんない}してくれますか。; Can you guide me around the tourist spot?"
+        }
+      ],
+      "kunyomi_sentences": [
+        {
+          "word": "{内} ; {うち} ; inside, within",
+          "sentence": "この部屋の{内}は広いです。; このへやの{うち}はひろいです。; The inside of this room is spacious."
+        }
+      ],
+      "lookalike_kanji": "肉, 丙, 冂"
+    },
+    {
+      "kanji": "相",
+      "meaning": "partner,mutual, together, minister",
+      "onyomi": "そう, しょう",
+      "kunyomi": "あい",
+      "mnemonic": "The tree (木) and the eye (目) if your partner has a tree splinter in their eye, you'll be the one to take it out",
+      "onyomi_sentences": [
+        {
+          "word": "{相談} ; {そうだん} ; consultation, discussion",
+          "sentence": "何かあれば私に{相談}してください。; なにかあればわたしに{そうだん}してください。; Please consult with me if there's anything."
+        },
+        {
+          "word": "{相手} ; {あいて} ; partner, opponent",
+          "sentence": "{相手}の気持ちを考えましょう。; {あいて}のきもちをかんがえましょう。; Let’s consider the feelings of the other person."
+        },
+        {
+          "word": "{首相} ; {しゅしょう} ; prime minister",
+          "sentence": "新しい{首相}が選ばれました。; あたらしい{しゅしょう}がえらばれました。; A new prime minister has been elected."
+        },  
+        {
+          "word": "{相撲} ; {すもう} ; sumo wrestling",
+          "sentence": "日本では{相撲}が人気のあるスポーツです。; にほんでは{すもう}がにんきのあるすぽーつです。; In Japan, sumo wrestling is a popular sport."
+        }
+      ],
+      "kunyomi_sentences": [
+        {
+          "word": "{相手} ; {あいて} ; partner, opponent",
+          "sentence": "{相手}を尊重することが大切です。; {あいて}をそんちょうすることがたいせつです。; It’s important to respect your partner."
+        },
+        {
+          "word": "{相性} ; {あいしょう} ; compatibility",
+          "sentence": "私たちの{相性}は良さそうです。; わたしたちの{あいしょう}はよさそうです。; Our compatibility seems good."
+        }
+      ],
+      "lookalike_kanji": "想, 想, 想"
+    }
+]
