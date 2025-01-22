@@ -2,8 +2,8 @@
     {
       "kanji": "政",
       "meaning": "politics, government",
-      "onyomi": "せい, しょう",
-      "kunyomi": "まつりごと",
+      "onyomi": "せい",
+      "kunyomi": "",
       "mnemonic": "Politicians are like benevolent directors that SAY laws which are correct. That's why there are no problems in the world today.",
       "onyomi_sentences": [
         {
@@ -13,12 +13,6 @@
         {
           "word": "{政党} ; {せいとう} ; political party",
           "sentence": "{政党}に所属していますか。; {せいとう}にしょぞくしていますか。; Are you a member of a political party?"
-        }
-      ],
-      "kunyomi_sentences": [
-        {
-          "word": "{政} ; {まつりごと} ; government (archaic)",
-          "sentence": "古代の{政}は王が決めました。; こだいの{まつりごと}はおうがきめました。; In ancient times, the government was decided by the king."
         }
       ],
       "lookalike_kanji": "正 ; 敬 ; 故"
