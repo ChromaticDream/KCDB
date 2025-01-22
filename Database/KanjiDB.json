@@ -3,6 +3,7 @@
       "kanji": "政",
       "meaning": "politics, government",
       "onyomi": "せい",
+      "kunyomi": "",
       "mnemonic": "Politicians are like benevolent directors that SAY laws which are correct. That's why there are no problems in the world today.",
       "onyomi_sentences": [
         {
@@ -14,12 +15,14 @@
           "sentence": "{政党}に所属していますか。; {せいとう}にしょぞくしていますか。; Are you a member of a political party?"
         }
       ],
-      "lookalike_kanji": "正 ; 敬 ; 故"
+      "lookalike_kanji": "正 ; 敬 ; 故",
+	  "jlpt": "N4"
     },
     {
       "kanji": "議",
       "meaning": "discussion, debate",
       "onyomi": "ぎ",
+      "kunyomi": "",
       "mnemonic": "The kanji combines 言 (words, speech) with 義 (justice, righteousness). this discussion becomes righteous!",
       "onyomi_sentences": [
         {
@@ -32,12 +35,14 @@
         }
       ],
       "kunyomi_sentences": [],
-      "lookalike_kanji": "義 ; 言 ; 識"
+      "lookalike_kanji": "義 ; 言 ; 識",
+	  "jlpt": "N4"
     },
     {
       "kanji": "対",
       "meaning": "opposite, versus, compare",
       "onyomi": "たい",
+      "kunyomi": "",
       "mnemonic": "a lid placed on メ ( look like a weird scale ) and radical 寸 ( measurement ), got the picture now ?",
       "onyomi_sentences": [
         {
@@ -58,7 +63,8 @@
         }
       ],
       "kunyomi_sentences": [],
-      "lookalike_kanji": "対 ; 丸 ; 文"
+      "lookalike_kanji": "対 ; 丸 ; 文",
+	  "jlpt": "N4"
     },
     {
       "kanji": "合",
@@ -98,7 +104,8 @@
           "sentence": "雨が降った{場合}は中止です。; あめがふった{ばあい}はちゅうしです。; In case of rain, it will be canceled."
         }
       ],
-      "lookalike_kanji": "会 ; 同 ; 含"
+      "lookalike_kanji": "会 ; 同 ; 含",
+	  "jlpt": "N4"
     },
     {
       "kanji": "市",
@@ -126,7 +133,8 @@
           "sentence": "朝{市場}で新鮮な野菜を買いました。; あさいちばでしんせんなやさいをかいました。; I bought fresh vegetables at the morning market."
         }
       ],
-      "lookalike_kanji": "町; 村; 師"
+      "lookalike_kanji": "町; 村; 師",
+	  "jlpt": "N4"
     },
     {
       "kanji": "内",
@@ -150,7 +158,8 @@
           "sentence": "この部屋の{内}は広いです。; このへやの{うち}はひろいです。; The inside of this room is spacious."
         }
       ],
-      "lookalike_kanji": "肉; 丙; 冂"
+      "lookalike_kanji": "肉; 丙; 冂",
+	  "jlpt": "N4"
     },
     {
       "kanji": "相",
@@ -186,7 +195,8 @@
           "sentence": "私たちの{相性}は良さそうです。; わたしたちの{あいしょう}はよさそうです。; Our compatibility seems good."
         }
       ],
-      "lookalike_kanji": "想; 想; 想"
+      "lookalike_kanji": "想; 想; 想",
+	  "jlpt": "N4"
     },
     {
       "kanji": "定",
@@ -218,7 +228,8 @@
           "sentence": "会議の日程がまだ{定まって}いません。; かいぎのにっていがまだ{さだまって}いません。; The schedule for the meeting hasn’t been settled yet."
         }
       ],
-      "lookalike_kanji": "貞; 宅; 述"
+      "lookalike_kanji": "貞; 宅; 述",
+	  "jlpt": "N4"
     },
     {
       "kanji": "回",
@@ -250,7 +261,8 @@
           "sentence": "ハンドルを右に{回してください}。; はんどるをみぎに{まわしてください}。; Please turn the handle to the right."
         }
       ],
-      "lookalike_kanji": "因; 図; 困"
+      "lookalike_kanji": "因; 図; 困",
+	  "jlpt": "N4"
     },
     {
       "kanji": "選",
@@ -286,7 +298,8 @@
           "sentence": "彼女がリーダーに{選ばれました}。; かのじょがりーだーに{えらばれました}。; She was chosen as the leader."
         }
       ],
-      "lookalike_kanji": "進; 連; 選"
+      "lookalike_kanji": "進; 連; 選",
+	  "jlpt": "N4"
     },
     {
       "kanji": "米",
@@ -314,7 +327,8 @@
           "sentence": "{米屋}でおいしいお米を買いました。; {こめや}でおいしいおこめをかいました。; I bought delicious rice at the rice shop."
         }
       ],
-      "lookalike_kanji": "来; 粒; 粉"
+      "lookalike_kanji": "来; 粒; 粉",
+	  "jlpt": "N4"
     },
     {
       "kanji": "実",
@@ -350,7 +364,8 @@
           "sentence": "今年はりんごがよく{実りました}。; ことしはりんごがよく{みのりました}。; This year, the apples ripened well."
         }
       ],
-      "lookalike_kanji": "宣; 実; 富"
+      "lookalike_kanji": "宣; 実; 富",
+	  "jlpt": "N4"
     },
     {
       "kanji": "関",
@@ -382,7 +397,8 @@
           "sentence": "この山には古い{関}があります。; このやまにはふるい{せき}があります。; This mountain has an old barrier."
         }
       ],
-      "lookalike_kanji": "門; 間; 闘"
+      "lookalike_kanji": "門; 間; 闘",
+	  "jlpt": "N4"
     },
     {
       "kanji": "決",
@@ -414,7 +430,8 @@
           "sentence": "試合の日程が{決まりました}。; しあいのにっていが{きまりました}。; The schedule for the match has been decided."
         }
       ],
-      "lookalike_kanji": "流; 洗; 沖"
+      "lookalike_kanji": "流; 洗; 沖",
+	  "jlpt": "N4"
     },
     {
       "kanji": "全",
@@ -446,7 +463,8 @@
           "sentence": "{全て}が順調に進んでいます。; {すべて}がじゅんちょうにすすんでいます。; Everything is going smoothly."
         }
       ],
-      "lookalike_kanji": "金; 公; 企"
+      "lookalike_kanji": "金; 公; 企",
+	  "jlpt": "N4"
     },
     {
       "kanji": "表",
@@ -482,6 +500,7 @@
           "sentence": "感情が顔に{表れました}。; かんじょうがかおに{あらわれました}。; His emotions appeared on his face."
         }
       ],
-      "lookalike_kanji": "票; 書; 補"
+      "lookalike_kanji": "票; 書; 補",
+	  "jlpt": "N4"
     }
 ]
