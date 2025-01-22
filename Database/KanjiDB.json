@@ -67,7 +67,7 @@
       "kanji": "合",
       "meaning": "to fit, join, combine",
       "onyomi": "ごう",
-      "kunyomi": "あう, あい, あわせる",
+      "kunyomi": "あう; あい; あわせる",
       "mnemonic": "ONE(一) roof (𠆢) per mouth (口) seem suitable, don't you think so ?",
       "onyomi_sentences": [
         {
@@ -129,7 +129,7 @@
           "sentence": "朝{市場}で新鮮な野菜を買いました。; あさいちばでしんせんなやさいをかいました。; I bought fresh vegetables at the morning market."
         }
       ],
-      "lookalike_kanji": "町, 村, 師"
+      "lookalike_kanji": "町; 村; 師"
     },
     {
       "kanji": "内",
@@ -153,12 +153,12 @@
           "sentence": "この部屋の{内}は広いです。; このへやの{うち}はひろいです。; The inside of this room is spacious."
         }
       ],
-      "lookalike_kanji": "肉, 丙, 冂"
+      "lookalike_kanji": "肉; 丙; 冂"
     },
     {
       "kanji": "相",
       "meaning": "partner,mutual, together, minister",
-      "onyomi": "そう, しょう",
+      "onyomi": "そう; しょう",
       "kunyomi": "あい",
       "mnemonic": "The tree (木) and the eye (目) if your partner has a tree splinter in their eye, you'll be the one to take it out",
       "onyomi_sentences": [
