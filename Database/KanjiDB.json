@@ -502,5 +502,271 @@
       ],
       "lookalike_kanji": "票; 書; 補",
 	  "jlpt": "N4"
-    }
+    },
+	{
+	  "kanji": "戦",
+	  "meaning": "war, battle, fight",
+	  "onyomi": "せん",
+	  "kunyomi": "たたか; いくさ",
+	  "mnemonic": "SENd soldiers (単) to war with just a spear (戈) ? Give them guns for god's sake !",
+	  "onyomi_sentences": [
+		{
+		  "word": "{戦争} ; {せんそう} ; war",
+		  "sentence": "{戦争}のない世界を望んでいます。; {せんそう}のないせかいをのぞんでいます。; I hope for a world without war."
+		},
+		{
+		  "word": "{対戦} ; {たいせん} ; competition, match",
+		  "sentence": "明日の試合で強い相手と{対戦}します。; あしたのしあいでつよいあいてと{たいせん}します。; I will compete against a strong opponent in tomorrow’s match."
+		},
+		{
+		  "word": "{戦略} ; {せんりゃく} ; strategy",
+		  "sentence": "このゲームでは{戦略}が重要です。; このげーむでは{せんりゃく}がじゅうようです。; Strategy is important in this game."
+		}
+	  ],
+	  "kunyomi_sentences": [
+		{
+		  "word": "{戦う} ; {たたかう} ; to fight, to battle",
+		  "sentence": "勇敢に{戦った}兵士を尊敬します。; ゆうかんに{たたかった}へいしをそんけいします。; I respect the soldiers who fought bravely."
+		},
+		{
+		  "word": "{戦} ; {いくさ} ; battle, war (archaic, used in literature)",
+		  "sentence": "歴史の本で多くの{戦}について学びました。; れきしのほんでおおくの{いくさ}についてまなびました。; I learned about many battles in history books."
+		}
+	  ],
+	  "lookalike_kanji": "戦; 戻; 戦",
+	  "jlpt": "N4"
+	},
+	{
+	  "kanji": "経",
+	  "meaning": "Experience, economy, management,throught",
+	  "onyomi": "けい; きょう",
+	  "kunyomi": "",
+	  "mnemonic": "Everyone I know has had the experience of taking a dump （又+土） and string(糸) came out. It's OKAY.",
+	  "onyomi_sentences": [
+		{
+		  "word": "{経験} ; {けいけん} ; experience",
+		  "sentence": "新しい{経験}を積むことは大切です。; あたらしい{けいけん}をつむことはたいせつです。; Gaining new experiences is important."
+		},
+		{
+		  "word": "{経済} ; {けいざい} ; economy",
+		  "sentence": "{経済}の成長は国にとって重要です。; {けいざい}のせいちょうはくににとってじゅうようです。; Economic growth is important for the country."
+		},
+		{
+		  "word": "{経営} ; {けいえい} ; management, administration",
+		  "sentence": "彼は会社の{経営}を担当しています。; かれはかいしゃの{けいえい}をたんとうしています。; He is in charge of managing the company."
+		},
+		{
+		  "word": "{経由} ; {けいゆ} ; via, through",
+		  "sentence": "東京を{経由}して大阪へ行きます。; とうきょうを{けいゆ}しておおさかへいきます。; I will go to Osaka via Tokyo."
+		}
+	  ],
+	  "kunyomi_sentences": [],
+	  "lookalike_kanji": "径; 統; 絵",
+	  "jlpt": "N4"
+	},
+	{
+	  "kanji": "最",
+	  "meaning": "most, extreme",
+	  "onyomi": "さい",
+	  "kunyomi": "もっとも",
+	  "mnemonic": "it is SAID that the sun (日) takes(取) up most of the sky",
+	  "onyomi_sentences": [
+		{
+		  "word": "{最高} ; {さいこう} ; highest, best",
+		  "sentence": "この映画は{最高}に面白かったです。; このえいがは{さいこう}におもしろかったです。; This movie was the best and most interesting."
+		},
+		{
+		  "word": "{最近} ; {さいきん} ; recently, lately",
+		  "sentence": "{最近}、天気が変わりやすいですね。; {さいきん}、てんきがかわりやすいですね。; Recently, the weather has been unpredictable."
+		},
+		{
+		  "word": "{最初} ; {さいしょ} ; first, beginning",
+		  "sentence": "{最初}のページを読んでください。; {さいしょ}のぺーじをよんでください。; Please read the first page."
+		},
+		{
+		  "word": "{最後} ; {さいご} ; last, final",
+		  "sentence": "試験の{最後}の問題が難しかった。; しけんの{さいご}のもんだいがむずかしかった。; The last question on the test was difficult."
+		}
+	  ],
+	  "kunyomi_sentences": [
+		{
+		  "word": "{最も} ; {もっとも} ; most, extremely",
+		  "sentence": "彼はクラスで{最も}背が高い。; かれはくらすで{もっとも}せがたかい。; He is the tallest in the class."
+		}
+	  ],
+	  "lookalike_kanji": "撮; 済; 崇",
+	  "jlpt": "N4"
+	},
+	{
+	  "kanji": "現",
+	  "meaning": "appear, present, reality",
+	  "onyomi": "げん",
+	  "kunyomi": "あらわ",
+	  "mnemonic": "On the king(王) can see (見) the present reality of the kingdom (they're out of げんきん) ",
+	  "onyomi_sentences": [
+		{
+		  "word": "{現在} ; {げんざい} ; present, current",
+		  "sentence": "{現在}、東京に住んでいます。; {げんざい}、とうきょうにすんでいます。; I currently live in Tokyo."
+		},
+		{
+		  "word": "{現実} ; {げんじつ} ; reality",
+		  "sentence": "{現実}を受け入れるのは難しいこともあります。; {げんじつ}をうけいれるのはむずかしいこともあります。; Accepting reality can sometimes be difficult."
+		},
+		{
+		  "word": "{現金} ; {げんきん} ; cash",
+		  "sentence": "この店では{現金}のみ使えます。; このみせでは{げんきん}のみつかえます。; This store only accepts cash."
+		},
+		{
+		  "word": "{発現} ; {はつげん} ; manifestation, emergence",
+		  "sentence": "その病気の症状が{発現}しました。; そのびょうきのしょうじょうが{はつげん}しました。; The symptoms of the disease have manifested."
+		}
+	  ],
+	  "kunyomi_sentences": [
+		{
+		  "word": "{現れる} ; {あらわれる} ; to appear, to show up",
+		  "sentence": "朝になると太陽が東の空に{現れます}。; あさになるとたいようがひがしのそらに{あらわれます}。; In the morning, the sun appears in the eastern sky."
+		},
+		{
+		  "word": "{現す} ; {あらわす} ; to show, to reveal",
+		  "sentence": "彼の表情は喜びを{現して}いました。; かれのひょうじょうはよろこびを{あらわして}いました。; His expression showed happiness."
+		}
+	  ],
+	  "lookalike_kanji": "見; 規; 限",
+	  "jlpt": "N4"
+	},
+	{
+	  "kanji": "調",
+	  "meaning": "checkout, investigate, tone, adjust",
+	  "onyomi": "ちょう",
+	  "kunyomi": "しら; ととの",
+	  "mnemonic": "you hear what mrs CHOU 言(say) and check out her 周(circumference), no need investigate further",
+	  "onyomi_sentences": [
+		{
+		  "word": "{調査} ; {ちょうさ} ; investigation, survey",
+		  "sentence": "警察が事件を{調査}しています。; けいさつがじけんを{ちょうさ}しています。; The police are investigating the incident."
+		},
+		{
+		  "word": "{調整} ; {ちょうせい} ; adjustment, regulation",
+		  "sentence": "エアコンの温度を{調整}しました。; えあこんのおんどを{ちょうせい}しました。; I adjusted the air conditioner temperature."
+		},
+		{
+		  "word": "{強調} ; {きょうちょう} ; emphasis, stress",
+		  "sentence": "先生はこのポイントを{強調}しました。; せんせいはこのぽいんとを{きょうちょう}しました。; The teacher emphasized this point."
+		},
+		{
+		  "word": "{調和} ; {ちょうわ} ; harmony, balance",
+		  "sentence": "このデザインは色の{調和}が取れています。; このでざいんはいろの{ちょうわ}がとれています。; This design has a good color balance."
+		}
+	  ],
+	  "kunyomi_sentences": [
+		{
+		  "word": "{調べました} ; {しらべました} ; to investigate, to look up (past tense)",
+		  "sentence": "わからない単語を辞書で{調べました}。; わからないたんごをじしょで{しらべました}。; I looked up an unfamiliar word in the dictionary."
+		},
+		{
+		  "word": "{調いました} ; {ととのいました} ; to be prepared, to be in order",
+		  "sentence": "準備が{調いました}ので、出発できます。; じゅんびが{ととのいました}ので、しゅっぱつできます。; The preparations are complete, so we can depart."
+		}
+	  ],
+	  "lookalike_kanji": "周; 朝; 談",
+	  "jlpt": "N4"
+	},
+	{
+	  "kanji": "化",
+	  "meaning": "change, transform",
+	  "onyomi": "か; け",
+	  "kunyomi": "ば",
+	  "mnemonic": "This person(亻) put heels(匕) and her pumpin transform into a CAR, rings a bell ?",
+	  "onyomi_sentences": [
+		{
+		  "word": "{文化} ; {ぶんか} ; culture",
+		  "sentence": "日本の{文化}に興味があります。; にほんの{ぶんか}にきょうみがあります。; I am interested in Japanese culture."
+		},
+		{
+		  "word": "{変化} ; {へんか} ; change, transformation",
+		  "sentence": "環境の{変化}に適応することが大切です。; かんきょうの{へんか}にてきおうすることがたいせつです。; Adapting to environmental changes is important."
+		},
+		{
+		  "word": "{進化} ; {しんか} ; evolution",
+		  "sentence": "人類の{進化}について学びました。; じんるいの{しんか}についてまなびました。; I studied human evolution."
+		},
+		{
+		  "word": "{化学} ; {かがく} ; chemistry",
+		  "sentence": "彼は大学で{化学}を専攻しています。; かれはだいがくで{かがく}をせんこうしています。; He is majoring in chemistry at university."
+		}
+	  ],
+	  "kunyomi_sentences": [
+		{
+		  "word": "{化けた} ; {ばけた} ; to transform, to disguise",
+		  "sentence": "彼は幽霊に{化けた}と言われています。; かれはゆうれいに{ばけた}といわれています。; It is said that he transformed into a ghost."
+		}
+	  ],
+	  "lookalike_kanji": "北; 花; 匕",
+	  "jlpt": "N4"
+	},
+	{
+	  "kanji": "当",
+	  "meaning": "hit, appropriate, right",
+	  "onyomi": "とう",
+	  "kunyomi": "あた",
+	  "mnemonic": "The three cute baby birds(⺌) hit the pig right on the snout(ヨ)",
+	  "onyomi_sentences": [
+		{
+		  "word": "{本当} ; {ほんとう} ; truth, really",
+		  "sentence": "{本当}のことを教えてください。; {ほんとう}のことをおしえてください。; Please tell me the truth."
+		},
+		{
+		  "word": "{適当} ; {てきとう} ; appropriate, suitable",
+		  "sentence": "この仕事に{適当}な人を探しています。; このしごとに{てきとう}なひとをさがしています。; We are looking for a suitable person for this job."
+		},
+		{
+		  "word": "{当然} ; {とうぜん} ; natural, obvious",
+		  "sentence": "努力すれば成功するのは{当然}です。; どりょくすればせいこうするのは{とうぜん}です。; If you work hard, success is natural."
+		},
+		{
+		  "word": "{当日} ; {とうじつ} ; the day of (an event)",
+		  "sentence": "{当日}に詳しい説明をします。; {とうじつ}にくわしいせつめいをします。; I will give detailed explanations on the day of the event."
+		}
+	  ],
+	  "kunyomi_sentences": [
+		{
+		  "word": "{当たりました} ; {あたりました} ; to hit, to be right",
+		  "sentence": "彼の予想が{当たりました}。; かれのよそうが{あたりました}。; His prediction was correct."
+		},
+		{
+		  "word": "{当てて} ; {あてて} ; to apply, to guess correctly",
+		  "sentence": "問題の答えを{当てて}ください。; もんだいのこたえを{あてて}ください。; Please guess the answer to the question."
+		}
+	  ],
+	  "lookalike_kanji": "尚",
+	  "jlpt": "N4"
+	},
+	{
+	  "kanji": "約",
+	  "meaning": "promise, approximately",
+	  "onyomi": "やく",
+	  "kunyomi": "",
+	  "mnemonic": "I promise(勺) to keep the YAK on the string(糸) and not let it run away",
+	  "onyomi_sentences": [
+		{
+		  "word": "{約束} ; {やくそく} ; promise, appointment",
+		  "sentence": "友達と映画に行く{約束}をしました。; ともだちとえいがにいく{やくそく}をしました。; I made a promise to go to the movies with my friend."
+		},
+		{
+		  "word": "{予約} ; {よやく} ; reservation, booking",
+		  "sentence": "レストランの{予約}をしましたか？; れすとらんの{よやく}をしましたか？; Did you make a reservation at the restaurant?"
+		},
+		{
+		  "word": "{契約} ; {けいやく} ; contract, agreement",
+		  "sentence": "新しい仕事の{契約}を結びました。; あたらしいしごとの{けいやく}をむすびました。; I signed a contract for a new job."
+		},
+		{
+		  "word": "{約} ; {やく} ; approximately, about",
+		  "sentence": "この町の人口は{約}一万人です。; このまちのじんこうは{やく}いちまんにんです。; The population of this town is about 10,000 people."
+		}
+	  ],
+	  "kunyomi_sentences": [],
+	  "lookalike_kanji": "縮; 絡; 結",
+	  "jlpt": "N4"
+	}
 ]
