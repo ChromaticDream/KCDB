@@ -16,7 +16,7 @@
         }
       ],
       "lookalike_kanji": "正 ; 敬 ; 故",
-	  "jlpt": "N4"
+	  "jlpt": "N3"
     },
     {
       "kanji": "議",
@@ -36,7 +36,7 @@
       ],
       "kunyomi_sentences": [],
       "lookalike_kanji": "義 ; 言 ; 識",
-	  "jlpt": "N4"
+	  "jlpt": "N3"
     },
     {
       "kanji": "対",
@@ -64,7 +64,7 @@
       ],
       "kunyomi_sentences": [],
       "lookalike_kanji": "対 ; 丸 ; 文",
-	  "jlpt": "N4"
+	  "jlpt": "N3"
     },
     {
       "kanji": "合",
@@ -105,7 +105,7 @@
         }
       ],
       "lookalike_kanji": "会 ; 同 ; 含",
-	  "jlpt": "N4"
+	  "jlpt": "N3"
     },
     {
       "kanji": "市",
@@ -134,7 +134,7 @@
         }
       ],
       "lookalike_kanji": "町; 村; 師",
-	  "jlpt": "N4"
+	  "jlpt": "N3"
     },
     {
       "kanji": "内",
@@ -159,7 +159,7 @@
         }
       ],
       "lookalike_kanji": "肉; 丙; 冂",
-	  "jlpt": "N4"
+	  "jlpt": "N3"
     },
     {
       "kanji": "相",
@@ -196,7 +196,7 @@
         }
       ],
       "lookalike_kanji": "想; 想; 想",
-	  "jlpt": "N4"
+	  "jlpt": "N3"
     },
     {
       "kanji": "定",
@@ -229,7 +229,7 @@
         }
       ],
       "lookalike_kanji": "貞; 宅; 述",
-	  "jlpt": "N4"
+	  "jlpt": "N3"
     },
     {
       "kanji": "回",
@@ -262,7 +262,7 @@
         }
       ],
       "lookalike_kanji": "因; 図; 困",
-	  "jlpt": "N4"
+	  "jlpt": "N3"
     },
     {
       "kanji": "選",
@@ -299,7 +299,7 @@
         }
       ],
       "lookalike_kanji": "進; 連; 選",
-	  "jlpt": "N4"
+	  "jlpt": "N3"
     },
     {
       "kanji": "米",
@@ -328,7 +328,7 @@
         }
       ],
       "lookalike_kanji": "来; 粒; 粉",
-	  "jlpt": "N4"
+	  "jlpt": "N3"
     },
     {
       "kanji": "実",
@@ -365,7 +365,7 @@
         }
       ],
       "lookalike_kanji": "宣; 実; 富",
-	  "jlpt": "N4"
+	  "jlpt": "N3"
     },
     {
       "kanji": "関",
@@ -398,7 +398,7 @@
         }
       ],
       "lookalike_kanji": "門; 間; 闘",
-	  "jlpt": "N4"
+	  "jlpt": "N3"
     },
     {
       "kanji": "決",
@@ -431,7 +431,7 @@
         }
       ],
       "lookalike_kanji": "流; 洗; 沖",
-	  "jlpt": "N4"
+	  "jlpt": "N3"
     },
     {
       "kanji": "全",
@@ -464,7 +464,7 @@
         }
       ],
       "lookalike_kanji": "金; 公; 企",
-	  "jlpt": "N4"
+	  "jlpt": "N3"
     },
     {
       "kanji": "表",
@@ -501,7 +501,7 @@
         }
       ],
       "lookalike_kanji": "票; 書; 補",
-	  "jlpt": "N4"
+	  "jlpt": "N3"
     },
 	{
 	  "kanji": "戦",
@@ -534,7 +534,7 @@
 		}
 	  ],
 	  "lookalike_kanji": "戦; 戻; 戦",
-	  "jlpt": "N4"
+	  "jlpt": "N3"
 	},
 	{
 	  "kanji": "経",
@@ -562,7 +562,7 @@
 	  ],
 	  "kunyomi_sentences": [],
 	  "lookalike_kanji": "径; 統; 絵",
-	  "jlpt": "N4"
+	  "jlpt": "N3"
 	},
 	{
 	  "kanji": "最",
@@ -595,7 +595,7 @@
 		}
 	  ],
 	  "lookalike_kanji": "撮; 済; 崇",
-	  "jlpt": "N4"
+	  "jlpt": "N3"
 	},
 	{
 	  "kanji": "現",
@@ -632,7 +632,7 @@
 		}
 	  ],
 	  "lookalike_kanji": "見; 規; 限",
-	  "jlpt": "N4"
+	  "jlpt": "N3"
 	},
 	{
 	  "kanji": "調",
@@ -669,7 +669,7 @@
 		}
 	  ],
 	  "lookalike_kanji": "周; 朝; 談",
-	  "jlpt": "N4"
+	  "jlpt": "N3"
 	},
 	{
 	  "kanji": "化",
@@ -702,7 +702,7 @@
 		}
 	  ],
 	  "lookalike_kanji": "北; 花; 匕",
-	  "jlpt": "N4"
+	  "jlpt": "N3"
 	},
 	{
 	  "kanji": "当",
@@ -739,7 +739,7 @@
 		}
 	  ],
 	  "lookalike_kanji": "尚",
-	  "jlpt": "N4"
+	  "jlpt": "N3"
 	},
 	{
 	  "kanji": "約",
@@ -767,6 +767,6 @@
 	  ],
 	  "kunyomi_sentences": [],
 	  "lookalike_kanji": "縮; 絡; 結",
-	  "jlpt": "N4"
+	  "jlpt": "N3"
 	}
 ]
