@@ -43,7 +43,7 @@
       "meaning": "opposite, versus, compare",
       "onyomi": "たい",
       "kunyomi": "",
-      "mnemonic": "a lid placed on メ ( look like a weird scale ) and radical 寸 ( measurement ), got the picture now ?",
+      "mnemonic": "a lid placed on a メ( hiragana me ) next to a 寸(scale), a device made to compare, oppose",
       "onyomi_sentences": [
         {
           "word": "{反対} ; {はんたい} ; opposition",
@@ -71,7 +71,7 @@
       "meaning": "to fit, join, combine",
       "onyomi": "ごう",
       "kunyomi": "あう; あい; あわせる",
-      "mnemonic": "ONE(一) roof (𠆢) per mouth (口) seem suitable, don't you think so ?",
+      "mnemonic": "ONE(一) roof (𠆢) per mouth (口), one roof per mouth is a good fit",
       "onyomi_sentences": [
         {
           "word": "{合計} ; {ごうけい} ; total, sum",
@@ -164,9 +164,10 @@
     {
       "kanji": "相",
       "meaning": "partner,mutual, together, minister",
-      "onyomi": "そう; しょう",
+      "onyomi": "そう; しょう"
       "kunyomi": "あい",
-      "mnemonic": "The tree (木) and the eye (目) if your partner has a tree splinter in their eye, you'll be the one to take it out",
+	  "Irregular / nanori": "す"
+      "mnemonic": "A 木(Tree) + 目(eye), if your partner has a tree splinter in their eye, you'll be the one to take it out",
       "onyomi_sentences": [
         {
           "word": "{相談} ; {そうだん} ; consultation, discussion",
@@ -195,7 +196,7 @@
           "sentence": "私たちの{相性}は良さそうです。; わたしたちの{あいしょう}はよさそうです。; Our compatibility seems good."
         }
       ],
-      "lookalike_kanji": "想; 想; 想",
+      "lookalike_kanji": "想",
 	  "jlpt": "N3"
     },
     {
@@ -203,7 +204,7 @@
       "meaning": "plan, decide, determine, fix",
       "onyomi": "てい; じょう",
       "kunyomi": "さだ",
-      "mnemonic": "A crown (宀) over correct (正) because the one who where the corwn is ALWAYS correct",
+      "mnemonic": "A 宀(crown) over 正(correct),the one who wear the crown get to decide, he is always correct",
       "onyomi_sentences": [
         {
           "word": "{予定} ; {よてい} ; plan, schedule",
@@ -236,7 +237,7 @@
       "meaning": "turn, revolve, time",
       "onyomi": "かい; え",
       "kunyomi": "まわ",
-      "mnemonic": "A mouth (口) inside another mouth rotating, probably some filthy alien creature",
+      "mnemonic": "A 口(mouth) inside another 口(mouth) rotating, probably some filthy creature with constantly turning/revolving mouth",
       "onyomi_sentences": [
         {
           "word": "{回数} ; {かいすう} ; number of times",
@@ -269,7 +270,7 @@
       "meaning": "select, choose, elect",
       "onyomi": "せん",
       "kunyomi": "えら",
-      "mnemonic": "A road (⻌) leading to a meeting where people are choosing their next leaded, a guy with two snake (巽 = (two snake 己) + 共(Together)), yeah looks like a cult.",
+      "mnemonic": "A ⻌(road) leading to a meeting where people are choose their next leaded, a guy with two snake (巽 = (two snake 己) + 共(Together)), yeah looks like a cult.",
       "onyomi_sentences": [
         {
           "word": "{選択} ; {せんたく} ; selection, choice",
@@ -278,11 +279,7 @@
         {
           "word": "{選挙} ; {せんきょ} ; election",
           "sentence": "新しい市長の{選挙}が行われています。; あたらしいしちょうの{せんきょ}がおこなわれています。; The election for the new mayor is taking place."
-        },
-        {
-          "word": "{候補者選び} ; {こうほしゃえらび} ; choosing a candidate",
-          "sentence": "{候補者選び}は重要な決定です。; {こうほしゃえらび}はじゅうようなけっていです。; Choosing a candidate is an important decision."
-        },    
+        },   
         {
           "word": "{選手} ; {せんしゅ} ; player, athlete",
           "sentence": "その{選手}は世界大会で優勝しました。; その{せんしゅ}はせかいたいかいでゆうしょうしました。; That athlete won the world championship."
@@ -333,7 +330,7 @@
     {
       "kanji": "実",
       "meaning": "truth, reality, fruit",
-      "onyomi": "じつ",
+      "onyomi": "じつ; じっ",
       "kunyomi": "み",
       "mnemonic": "a crown (宀) over spring (𡗗) spring has become king it's the real truth",
       "onyomi_sentences": [
@@ -372,7 +369,7 @@
       "meaning": "connection, barrier, concern",
       "onyomi": "かん",
       "kunyomi": "せき",
-      "mnemonic": "This gate (門) lead to the horny heaven (天+丷), and it's garded by Gengis khan",
+      "mnemonic": "This gate (門) is connected to the horny heaven (天+丷), one concern is that there is a barrier guarded by Gengis khan",
       "onyomi_sentences": [
         {
           "word": "{関係} ; {かんけい} ; relationship, connection",
@@ -403,7 +400,7 @@
     {
       "kanji": "決",
       "meaning": "decide, determine",
-      "onyomi": "けつ",
+      "onyomi": "けつ; けっ",
       "kunyomi": "き; きめる; きまる",
       "mnemonic": "I like to watch the tsunami (氵) of KEITSUp when you decide to KIll a person (人) with a hook (ユ)",
       "onyomi_sentences": [
@@ -438,7 +435,7 @@
       "meaning": "all, whole, complete",
       "onyomi": "ぜん",
       "kunyomi": "まった; すべ",
-      "mnemonic": "every king (王) like to do ZEN stuff under a roof (𠆢) because they all ompletely nuts",
+      "mnemonic": "every 王(king) like to do ZEN stuff under a 𠆢(roof) because they're all completely nuts",
       "onyomi_sentences": [
         {
           "word": "{全部} ; {ぜんぶ} ; all, everything",
