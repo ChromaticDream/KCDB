@@ -67,118 +67,111 @@
     <input type="file" id="fileInput">
     <div id="result"></div>
   </div>
-  <script>
-// Kanji Database Integrity Checker (Browser Version)
-
-// Define validation rules for each field
-const rules = {
-  kanji: value => value === undefined || (typeof value === 'string' && value.length === 1),
-  meaning: value => value === undefined || (typeof value === 'string' && /^[a-zA-Z ,\-\(\)]*$/.test(value)),
-  onyomi: value => value === undefined || (typeof value === 'string' && /^[\u3040-\u309F ;]*$/.test(value)),
-  kunyomi: value => value === undefined || (typeof value === 'string' && /^[\u3040-\u309F ;]*$/.test(value)),
-  mnemonic: value => value === undefined || (typeof value === 'string' && value.trim().length >= 0),
-  onyomi_sentences: value => value === undefined || (Array.isArray(value) && value.every(sentence => 
-    sentence.word && sentence.word.split(';').length === 3 && sentence.word.includes('{') && sentence.word.includes('}') &&
-    sentence.sentence && sentence.sentence.split(';').length === 3 && sentence.sentence.includes('{') && sentence.sentence.includes('}')
-  )),
-  kunyomi_sentences: value => value === undefined || (Array.isArray(value) && value.every(sentence => 
-    sentence.word && sentence.word.split(';').length === 3 && sentence.word.includes('{') && sentence.word.includes('}') &&
-    sentence.sentence && sentence.sentence.split(';').length === 3 && sentence.sentence.includes('{') && sentence.sentence.includes('}')
-  )),
-  lookalike_kanji: value => value === undefined || (typeof value === 'string' && /^[\u4E00-\u9FFF ;]*$/.test(value))
-};
-
-// Function to validate each kanji entry
-function validateKanjiEntry(entry, entryStartLine, lines) {
-  const errors = [];
-
-  for (const [key, validate] of Object.entries(rules)) {
-    if (!validate(entry[key])) {
-      const fieldLineNumber = findFieldLineNumber(lines, entryStartLine, key);
-      if (key === 'meaning' || key === 'onyomi' || key === 'kunyomi' || key === 'lookalike_kanji') {
-        const invalidChars = entry[key]?.split('').filter(char => !rules[key](char)).join('');
-        errors.push(`Line ${fieldLineNumber}: Invalid value for '${key}' in kanji ${entry.kanji}. Problematic character(s): '${invalidChars}'`);
-      } else {
-        errors.push(`Line ${fieldLineNumber}: Invalid value for '${key}' in kanji ${entry.kanji}.`);
-      }
-    }
-  }
-
-  return errors;
-}
-
-// Main validation function
-function validateKanjiDatabase(data, fileContent) {
-  const allErrors = [];
-  const lines = fileContent.split('\n');
-
-  data.forEach((entry, index) => {
-    const entryStartLine = findEntryStartLine(lines, entry);
-    const entryErrors = validateKanjiEntry(entry, entryStartLine, lines);
-    allErrors.push(...entryErrors);
-  });
-
-  return allErrors;
-}
-
-// Helper function to find the start line of an entry
-function findEntryStartLine(lines, entry) {
-  const entrySnippet = `"kanji": "${entry.kanji}"`;
-  for (let i = 0; i < lines.length; i++) {
-    if (lines[i].includes(entrySnippet)) {
-      return i + 1;
-    }
-  }
-  return -1; // Return -1 if the start line is not found
-}
-
-// Helper function to find the line number of a specific field
-function findFieldLineNumber(lines, entryStartLine, fieldKey) {
-  for (let i = entryStartLine - 1; i < lines.length; i++) {
-    if (lines[i].includes(`"${fieldKey}":`)) {
-      return i + 1;
-    }
-  }
-  return entryStartLine; // Default to the entry start line if not found
-}
-
-// HTML Elements
-const fileInput = document.getElementById('fileInput');
-const resultDiv = document.getElementById('result');
-
-fileInput.addEventListener('change', (event) => {
+<script>
+document.getElementById('fileInput').addEventListener('change', (event) => {
   const file = event.target.files[0];
-  if (file) {
-    const reader = new FileReader();
-    reader.onload = (e) => {
-      try {
-        const fileContent = e.target.result;
-        const data = JSON.parse(fileContent);
+  if (!file) return;
 
-        if (!Array.isArray(data)) {
-          resultDiv.innerHTML = '<p style="color: red;">Error: Database is not an array.</p>';
+  const reader = new FileReader();
+  reader.onload = (e) => {
+    const resultDiv = document.getElementById('result');
+    const fileContent = e.target.result;
+    let parsed;
+
+    try {
+      parsed = JSON.parse(fileContent);
+    } catch (err) {
+      resultDiv.innerHTML = `<p style="color: red;">❌ Failed to parse JSON. ${err.message}</p>`;
+      return;
+    }
+
+    if (!Array.isArray(parsed)) {
+      resultDiv.innerHTML = `<p style="color: red;">❌ Top-level structure must be an array.</p>`;
+      return;
+    }
+
+    const errors = [];
+    let totalEntries = parsed.length;
+    let validEntries = 0;
+
+    parsed.forEach((entry, index) => {
+      const entryIndex = `Entry ${index + 1}`;
+
+      if (!entry || typeof entry !== 'object') {
+        errors.push(`${entryIndex}: ❌ Invalid entry (not a JSON object).`);
+        return;
+      }
+
+      // Track valid objects (even if fields are invalid)
+      validEntries++;
+
+      // Required field: kanji
+      if (typeof entry.kanji !== 'string' || entry.kanji.trim() === '') {
+        errors.push(`${entryIndex}: ❌ Missing or invalid 'kanji' field.`);
+      }
+
+      // Optional string fields (must be string if present)
+      const optionalStrings = ['meaning', 'onyomi', 'kunyomi', 'mnemonic', 'lookalike_kanji', 'jlpt'];
+      optionalStrings.forEach(field => {
+        if (entry[field] !== undefined && typeof entry[field] !== 'string') {
+          errors.push(`${entryIndex}: ❌ '${field}' must be a string (or empty).`);
+        }
+      });
+
+      // Sentence array check
+      const checkSentences = (sentences, label) => {
+        if (sentences === undefined) return;
+        if (!Array.isArray(sentences)) {
+          errors.push(`${entryIndex}: ❌ '${label}_sentences' must be an array.`);
           return;
         }
 
-        const errors = validateKanjiDatabase(data, fileContent);
+        sentences.forEach((s, i) => {
+          const sentenceLabel = `${entryIndex}, ${label} sentence ${i + 1}`;
 
-        if (errors.length === 0) {
-          resultDiv.innerHTML = `<p style="color: green;">No issues found. The database is valid.</p>
-                                 <p style="color: #333;">Number of kanji entries: ${data.length}</p>`;
-        } else {
-          resultDiv.innerHTML = '<p style="color: red;">Issues found:</p><pre>' + errors.join('\n') + '</pre>';
-        }
-      } catch (err) {
-        resultDiv.innerHTML = '<p style="color: red;">Error: Failed to parse JSON. ' + err.message + '</p>';
-      }
-    };
-    reader.readAsText(file);
-  }
+          if (!s || typeof s !== 'object') {
+            errors.push(`${sentenceLabel}: ❌ Not a valid object.`);
+            return;
+          }
+
+          if (typeof s.word !== 'string') {
+            errors.push(`${sentenceLabel}: ❌ Missing or invalid 'word' field.`);
+          } else if (s.word.split(';').length !== 3) {
+            errors.push(`${sentenceLabel}: ❌ 'word' must contain 3 parts separated by semicolons.`);
+          }
+
+          if (typeof s.sentence !== 'string') {
+            errors.push(`${sentenceLabel}: ❌ Missing or invalid 'sentence' field.`);
+          } else if (s.sentence.split(';').length !== 3) {
+            errors.push(`${sentenceLabel}: ❌ 'sentence' must contain 3 parts separated by semicolons.`);
+          }
+        });
+      };
+
+      checkSentences(entry.onyomi_sentences, 'onyomi');
+      checkSentences(entry.kunyomi_sentences, 'kunyomi');
+    });
+
+    // Display results
+    const summary = `
+      <p style="color: #333;">🗂 Total entries processed: ${totalEntries}</p>
+      <p style="color: #333;">✅ Valid object entries: ${validEntries}</p>
+      <p style="color: ${errors.length === 0 ? 'green' : 'red'};">
+        ${errors.length === 0 ? '✔ All entries are valid for deserialization!' : `⚠ ${errors.length} issues found:`}
+      </p>
+    `;
+
+    const errorDetails = errors.length
+      ? `<pre style="color: red;">${errors.join('\n')}</pre>`
+      : '';
+
+    resultDiv.innerHTML = summary + errorDetails;
+  };
+
+  reader.readAsText(file);
 });
+</script>
 
 
-
-
-  </script>
 </body>
 </html>

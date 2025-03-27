@@ -764,5 +764,487 @@
 	  "kunyomi_sentences": [],
 	  "lookalike_kanji": "縮; 絡; 結",
 	  "jlpt": "N3"
+	},
+	{
+	  "kanji": "法",
+	  "meaning": "law, method, rule",
+	  "onyomi": "ほう, ぽう",
+	  "kunyomi": "",
+	  "mnemonic": "Water (氵) + 去 (past tense) HOU comes law are always flowing since ancien time ?",
+	  "onyomi_sentences": [
+		{
+		  "word": "{法律} ; {ほうりつ} ; law",
+		  "sentence": "新しい{法律}が来月から施行されます。; あたらしい{ほうりつ}がらいげつからしこうされます。; A new law will be enforced starting next month."
+		},
+		{
+		  "word": "{方法} ; {ほうほう} ; method, way",
+		  "sentence": "いい勉強の{方法}を知っていますか？; いいべんきょうの{ほうほう}をしっていますか？; Do you know a good way to study?"
+		},
+		{
+		  "word": "{作法} ; {さほう} ; manners, etiquette",
+		  "sentence": "日本の食事の{作法}を学びました。; にほんのしょくじの{さほう}をまなびました。; I learned Japanese table manners."
+		},
+		{
+		  "word": "{文法} ; {ぶんぽう} ; grammar",
+		  "sentence": "{文法}の勉強は大切です。; {ぶんぽう}のべんきょうはたいせつです。; Studying grammar is important."
+		}
+	  ],
+	  "kunyomi_sentences": [],
+	  "lookalike_kanji": "去",
+	  "jlpt": "N3"
+	},
+	{
+	  "kanji": "性",
+	  "meaning": "nature, gender, characteristic",
+	  "onyomi": "せい, しょう",
+	  "kunyomi": "",
+	  "mnemonic": "A heart (忄) that determines one's life (生) gender and characteristic",
+	  "onyomi_sentences": [
+		{
+		  "word": "{性格} ; {せいかく} ; personality, character",
+		  "sentence": "彼は明るい{性格}です。; かれはあかるい{せいかく}です。; He has a cheerful personality."
+		},
+		{
+		  "word": "{女性} ; {じょせい} ; woman, female",
+		  "sentence": "その会社には多くの{女性}が働いています。; そのかいしゃにはおおくの{じょせい}がはたらいています。; Many women work at that company."
+		},
+		{
+		  "word": "{可能性} ; {かのうせい} ; possibility, potential",
+		  "sentence": "成功の{可能性}は高いです。; せいこうの{かのうせい}はたかいです。; The possibility of success is high."
+		},
+		{
+		  "word": "{性質} ; {せいしつ} ; nature, property (of something)",
+		  "sentence": "水は冷たい{性質}を持っています。; みずはつめたい{せいしつ}をもっています。; Water has a cold nature."
+		},
+		{
+		  "word": "{本性} ; {ほんしょう} ; true nature",
+		  "sentence": "彼の{本性}がようやく現れた。; かれの{ほんしょう}がようやくあらわれた。; His true nature finally showed."
+		}
+	  ],
+	  "kunyomi_sentences": [],
+	  "lookalike_kanji": "姓 ; 情",
+	  "jlpt": "N3"
+	},
+	{
+	  "kanji": "的",
+	  "meaning": "target (as noun), -like (adjectival suffix)",
+	  "onyomi": "てき",
+	  "kunyomi": "まと",
+	  "mnemonic": "White (白) on a target (勺) I promise to eat the white part of the teki target.",
+	  "onyomi_sentences": [
+		{
+		  "word": "{目的} ; {もくてき} ; purpose, goal",
+		  "sentence": "旅行の{目的}はリラックスすることです。; りょこうの{もくてき}はりらっくすすることです。; The purpose of the trip is to relax."
+		},
+		{
+		  "word": "{基本的} ; {きほんてき} ; fundamental, basic",
+		  "sentence": "{基本的}な日本語を勉強しています。; {きほんてき}なにほんごをべんきょうしています。; I'm studying basic Japanese."
+		},
+		{
+		  "word": "{具体的} ; {ぐたいてき} ; specific, concrete",
+		  "sentence": "{具体的}な例を出してください。; {ぐたいてき}なれいをだしてください。; Please give a specific example."
+		},
+		{
+		  "word": "{理想的} ; {りそうてき} ; ideal",
+		  "sentence": "これは{理想的}な条件です。; これは{りそうてき}なじょうけんです。; These are ideal conditions."
+		},
+		{
+		  "word": "{敵} ; {てき} ; enemy",
+		  "sentence": "{敵}を油断してはいけません。; {てき}をゆだんしてはいけません。; You must not underestimate the enemy."
+		}
+	  ],
+	  "kunyomi_sentences": [
+		{
+		  "word": "{的} ; {まと} ; target",
+		  "sentence": "矢が{的}に当たりました。; やが{まと}にあたりました。; The arrow hit the target."
+		}
+	  ],
+	  "lookalike_kanji": "首",
+	  "jlpt": "N3"
+	},
+	{
+	  "kanji": "要",
+	  "meaning": "need, important, main",
+	  "onyomi": "よう",
+	  "kunyomi": "い, かなめ",
+	  "mnemonic": " a bed on top of a 女 (woman), she say YO let's rest",
+	  "onyomi_sentences": [
+		{
+		  "word": "{必要} ; {ひつよう} ; necessity, need",
+		  "sentence": "パスポートは{必要}ですか？; ぱすぽーとは{ひつよう}ですか？; Is a passport necessary?"
+		},
+		{
+		  "word": "{要点} ; {ようてん} ; main point",
+		  "sentence": "レポートの{要点}をまとめてください。; れぽーとの{ようてん}をまとめてください。; Please summarize the main points of the report."
+		},
+		{
+		  "word": "{要約} ; {ようやく} ; summary",
+		  "sentence": "記事を{要約}してください。; きじを{ようやく}してください。; Please summarize the article."
+		},
+		{
+		  "word": "{主要} ; {しゅよう} ; main, principal",
+		  "sentence": "{主要}な都市を訪れました。; {しゅよう}なとしをおとずれました。; I visited the major cities."
+		}
+	  ],
+	  "kunyomi_sentences": [
+		{
+		  "word": "{要る} ; {いる} ; to need",
+		  "sentence": "この手続きには書類が{要ります}。; このてつづきにはしょるいが{いります}。; You need documents for this procedure."
+		},
+		{
+		  "word": "{要} ; {かなめ} ; key, cornerstone",
+		  "sentence": "チームの{要}はキャプテンです。; ちーむの{かなめ}はきゃぷてんです。; The captain is the key player of the team."
+		}
+	  ],
+	  "lookalike_kanji": "西",
+	  "jlpt": "N3"
+	},
+	{
+	  "kanji": "制",
+	  "meaning": "control, system, restrict",
+	  "onyomi": "せい",
+	  "kunyomi": "",
+	  "mnemonic": "A knife (刂) cuts throught (生)life in the (市)city, people SEI that the system need more restrict & control",
+	  "onyomi_sentences": [
+		{
+		  "word": "{制度} ; {せいど} ; system, institution",
+		  "sentence": "日本には良い医療{制度}があります。; にほんにはよいいりょう{せいど}があります。; Japan has a good healthcare system."
+		},
+		{
+		  "word": "{制限} ; {せいげん} ; restriction, limit",
+		  "sentence": "この道では速度{制限}があります。; このみちではそくど{せいげん}があります。; There is a speed limit on this road."
+		},
+		{
+		  "word": "{制服} ; {せいふく} ; uniform",
+		  "sentence": "学生は学校の{制服}を着ています。; がくせいはがっこうの{せいふく}をきています。; Students wear school uniforms."
+		},
+		{
+		  "word": "{制作者} ; {せいさくしゃ} ; creator, producer",
+		  "sentence": "彼はこのゲームの{制作者}です。; かれはこのげーむの{せいさくしゃ}です。; He is the creator of this game."
+		}
+	  ],
+	  "kunyomi_sentences": [],
+	  "lookalike_kanji": "券 ; 列",
+	  "jlpt": "N3"
+	},
+	{
+	  "kanji": "治",
+	  "meaning": "govern, heal, cure",
+	  "onyomi": "ち ; じ",
+	  "kunyomi": "なお ; おさ",
+	  "mnemonic": "(氵)water + (台)machine ,poor some water over machine to cure them",
+	  "onyomi_sentences": [
+		{
+		  "word": "{政治} ; {せいじ} ; politics",
+		  "sentence": "{政治}は国を{治める}ための仕組みです。; {せいじ}はくにを{おさめる}ためのしくみです。; Politics is the system for governing a country."
+		},
+		{
+		  "word": "{治療} ; {ちりょう} ; medical treatment",
+		  "sentence": "病院で{治療}を受けました。; びょういんで{ちりょう}をうけました。; I received medical treatment at the hospital."
+		}
+	  ],
+	  "kunyomi_sentences": [
+		{
+		  "word": "{治る} ; {なおる} ; to heal, to be cured",
+		  "sentence": "風邪はもう{治りました}。; かぜはもう{なおりました}。; My cold has already healed."
+		},
+		{
+		  "word": "{治す} ; {なおす} ; to cure, to fix",
+		  "sentence": "医者が病気を{治して}くれました。; いしゃがびょうきを{なおして}くれました。; The doctor cured my illness."
+		},
+		{
+		  "word": "{治める} ; {おさめる} ; to govern, to rule",
+		  "sentence": "王は国を平和に{治めました}。; おうはくにをへいわに{おさめました}。; The king governed the country peacefully."
+		},
+		{
+		  "word": "{治まる} ; {おさまる} ; to settle down, to be at peace",
+		  "sentence": "嵐がようやく{治まりました}。; あらしがようやく{おさまりました}。; The storm finally settled down."
+		}
+	  ],
+	  "lookalike_kanji": "始 ; 台",
+	  "jlpt": "N3"
+	},
+	{
+	  "kanji": "務",
+	  "meaning": "duty, task, work",
+	  "onyomi": "む",
+	  "kunyomi": "つと",
+	  "mnemonic": "矛 (halberd)+ 攵(warrior) +力(strong), it's the duty of a warrior to stay MUte",
+	  "onyomi_sentences": [
+		{
+		  "word": "{事務所} ; {じむしょ} ; office work",
+		  "sentence": "私は会社で{事務所}の仕事をしています。; わたしはかいしゃで{じむしょ}のしごとをしています。; I do office work at a company."
+		},
+		{
+		  "word": "{任務} ; {にんむ} ; duty, mission",
+		  "sentence": "彼は重要な{任務}を与えられた。; かれはじゅうような{にんむ}をあたえられた。; He was given an important mission."
+		}
+	  ],
+	  "kunyomi_sentences": [
+		{
+		  "word": "{務める} ; {つとめる} ; to serve, to fulfill a role",
+		  "sentence": "彼女は司会を{務めました}。; かのじょはしかいを{つとめました}。; She acted as the host."
+		},
+				{
+		  "word": "{務める} ; {つとめる} ; to serve, to work as",
+		  "sentence": "彼は社長として{務めています}。; かれはしゃちょうとして{つとめています}。; He is serving as the company president."
+		}
+	  ],
+	  "lookalike_kanji": "務",
+	  "jlpt": "N3"
+	},
+	{
+	  "kanji": "成",
+	  "meaning": "become, achieve, succeed",
+	  "onyomi": "せい",
+	  "kunyomi": "な",
+	  "mnemonic": "if sou SEI you'll get good at kanji, eventually you'll become good",
+	  "onyomi_sentences": [
+		{
+		  "word": "{成功} ; {せいこう} ; success",
+		  "sentence": "努力すれば{成功}できます。; どりょくすれば{せいこう}できます。; If you work hard, you can succeed."
+		},
+		{
+		  "word": "{成長} ; {せいちょう} ; growth",
+		  "sentence": "子どもの{成長}を見るのは楽しいです。; こどもの{せいちょう}をみるのはたのしいです。; Watching a child grow is enjoyable."
+		},
+		{
+		  "word": "{完成} ; {かんせい} ; completion",
+		  "sentence": "新しいビルが{完成}しました。; あたらしいびるが{かんせい}しました。; The new building has been completed."
+		},
+		{
+		  "word": "{成立} ; {せいりつ} ; formation, establishment",
+		  "sentence": "その計画は正式に{成立}しました。; そのけいかくはせいしきに{せいりつ}しました。; The plan has been officially established."
+		}
+	  ],
+	  "kunyomi_sentences": [
+		{
+		  "word": "{成る} ; {なる} ; to become",
+		  "sentence": "夢が現実に{成りました}。; ゆめがげんじつに{なりました}。; My dream became reality."
+		}
+	  ],
+	  "lookalike_kanji": "城 ; 誠 ; 威",
+	  "jlpt": "N3"
+	},
+	{
+	  "kanji": "期",
+	  "meaning": "period, term, expect",
+	  "onyomi": "き",
+	  "kunyomi": "",
+	  "mnemonic": "其(that) + 月(moon) that month was the period of time you studied KEI",
+	  "onyomi_sentences": [
+		{
+		  "word": "{期間} ; {きかん} ; period, duration",
+		  "sentence": "夏休みの{期間}は三週間です。; なつやすみの{きかん}はさんしゅうかんです。; Summer vacation lasts three weeks."
+		},
+		{
+		  "word": "{期待} ; {きたい} ; expectation, hope",
+		  "sentence": "新しい映画に{期待}しています。; あたらしいえいがに{きたい}しています。; I'm looking forward to the new movie."
+		},
+		{
+		  "word": "{学期} ; {がっき} ; school term, semester",
+		  "sentence": "次の{学期}は九月に始まります。; つぎの{がっき}はくがつにはじまります。; The next semester starts in September."
+		},
+		{
+		  "word": "{定期} ; {ていき} ; fixed term, regular",
+		  "sentence": "{定期}券を買いました。; {ていき}けんをかいました。; I bought a commuter pass."
+		}
+	  ],
+	  "kunyomi_sentences": [],
+	  "lookalike_kanji": "其",
+	  "jlpt": "N3"
+	},
+	{
+	  "kanji": "取",
+	  "meaning": "take, fetch, get",
+	  "onyomi": "しゅ ; とり",
+	  "kunyomi": "と",
+	  "mnemonic": "耳(ear) + 又(again/crotch) the pervert cameraman only takes close-ups of ears and crotches",
+	  "onyomi_sentences": [
+		{
+		  "word": "{取得} ; {しゅとく} ; acquisition, obtaining",
+		  "sentence":"資格を{取得}しました。; しかくを{しゅとく}しました。; I obtained a certification."
+		},
+		{
+		  "word": "{取材} ; {しゅざい} ; news coverage, interview",
+		  "sentence": "記者が事件の{取材}を行っています。; きしゃがじけんの{しゅざい}をおこなっています。; The reporter is covering the incident."
+		},
+		{
+		  "word": "{取引} ; {とりひき} ; transaction, deal",
+		  "sentence": "会社間の{取引}が成功しました。; かいしゃかんの{とりひき}がせいこうしました。; The deal between the companies was successful."
+		}
+	  ],
+	  "kunyomi_sentences": [
+		{
+		  "word": "{取る} ; {とる} ; to take, to get",
+		  "sentence": "本を棚から{取りました}。; ほんをたなから{とりました}。; I took a book from the shelf."
+		},
+		{
+		  "word": "{取り消す} ; {とりけす} ; to cancel",
+		  "sentence": "予約を{取り消しました}。; よやくを{とりけしました}。; I canceled the reservation."
+		}
+	  ],
+	  "lookalike_kanji": "耳 ; 最 ",
+	  "jlpt": "N3"
+	},
+	{
+	  "kanji": "都",
+	  "meaning": "capital, city, metropolis",
+	  "onyomi": "と ; つ",
+	  "kunyomi": "みやこ",
+	  "mnemonic": "者(person) + 阝(buildings ) a person surrounded by building symbolizing the capital or major city.",
+	  "onyomi_sentences": [
+		{
+		  "word": "{東京都} ; {とうきょうと} ; Tokyo Metropolis",
+		  "sentence": "{東京都}は日本の首都です。; {とうきょうと}はにほんのしゅとです。; Tokyo is the capital of Japan."
+		},
+		{
+		  "word": "{都合} ; {つごう} ; convenience, circumstances",
+		  "sentence": "明日の{都合}はいかがですか？; あしたの{つごう}はいかがですか？; How is your availability for tomorrow?"
+		},
+		{
+		  "word": "{都市} ; {とし} ; city",
+		  "sentence": "この{都市}はとてもにぎやかです。; この{とし}はとてもにぎやかです。; This city is very lively."
+		}
+	  ],
+	  "kunyomi_sentences": [
+		{
+		  "word": "{都} ; {みやこ} ; capital (classical/literary)",
+		  "sentence": "昔の{都}は京都でした。; むかしの{みやこ}はきょうとでした。; The old capital used to be Kyoto."
+		}
+	  ],
+	  "lookalike_kanji": "者 ; 郡",
+	  "jlpt": "N3"
+	},
+	{
+	  "kanji": "和",
+	  "meaning": "harmony, peace, Japan",
+	  "onyomi": "わ",
+	  "kunyomi": "やわ ; なご",
+	  "mnemonic": "禾(wheat) + 口(mouth), eating wheat in japan in total peace & harmony",
+	  "onyomi_sentences": [
+		{
+		  "word": "{和食} ; {わしょく} ; Japanese food",
+		  "sentence":"{和食}が好きですか？; {わしょく}がすきですか？; Do you like Japanese food?"
+		},
+		{
+		  "word": "{平和} ; {へいわ} ; peace",
+		  "sentence": "世界に{平和}が必要です。; せかいに{へいわ}がひつようです。; Peace is necessary in the world."
+		},
+		{
+		  "word": "{和室} ; {わしつ} ; Japanese-style room",
+		  "sentence": "この旅館には{和室}があります。; このりょかんには{わしつ}があります。; This inn has Japanese-style rooms."
+		}
+	  ],
+	  "kunyomi_sentences": [
+		{
+		  "word": "{和らぐ} ; {やわらぐ} ; to soften, to calm down",
+		  "sentence": "緊張が少し{和らぎました}。; きんちょうがすこし{やわらぎました}。; The tension eased a little."
+		},
+		{
+		  "word": "{和む} ; {なごむ} ; to be softened, to relax",
+		  "sentence": "この音楽を聞くと心が{和みます}。; このおんがくをきくとこころが{なごみます}。; This music relaxes my heart."
+		}
+	  ],
+	  "lookalike_kanji": "咲",
+	  "jlpt": "N3"
+	},
+	{
+	  "kanji": "機",
+	  "meaning": "machine, opportunity, mechanism",
+	  "onyomi": "き",
+	  "kunyomi": "",
+	  "mnemonic": "木(tree) + 幾(mechanism) KIeep my tree out of your mechanism!",
+	  "onyomi_sentences": [
+		{
+		  "word": "{機械} ; {きかい} ; machine",
+		  "sentence": "新しい{機械}が工場に導入されました。; あたらしい{きかい}がこうじょうにどうにゅうされました。; A new machine was introduced to the factory."
+		},
+		{
+		  "word": "{機会} ; {きかい} ; opportunity, chance",
+		  "sentence": "彼に会う{機会}がありました。; かれにあう{きかい}がありました。; I had a chance to meet him."
+		},
+		{
+		  "word": "{飛行機} ; {ひこうき} ; airplane",
+		  "sentence": "明日、{飛行機}で大阪に行きます。; あした、{ひこうき}でおおさかにいきます。; Tomorrow, I’m going to Osaka by airplane."
+		},
+		{
+		  "word": "{危機} ; {きき} ; crisis",
+		  "sentence": "会社は経済的な{危機}に直面しています。; かいしゃはけいざいてきな{きき}にちょくめんしています。; The company is facing an economic crisis."
+		}
+	  ],
+	  "kunyomi_sentences": [],
+	  "lookalike_kanji": "幾",
+	  "jlpt": "N3"
+	},
+	{
+	  "kanji": "平",
+	  "meaning": "flat, calm, peace",
+	  "onyomi": "へい",
+	  "kunyomi": "たい ; ひら",
+	  "mnemonic": "Unlike 半, the top of 平 is flat, and it means flat / calm.' So, that's how you remember it.",
+	  "onyomi_sentences": [
+		{
+		  "word": "{平和} ; {へいわ} ; peace",
+		  "sentence": "世界に{平和}をもたらしたい。; せかいに{へいわ}をもたらしたい。; I want to bring peace to the world."
+		},
+		{
+		  "word": "{平日} ; {へいじつ} ; weekday",
+		  "sentence": "{平日}は仕事があります。; {へいじつ}はしごとがあります。; I have work on weekdays."
+		},
+		{
+		  "word": "{公平} ; {こうへい} ; fairness, justice",
+		  "sentence": "全員に{公平}なチャンスを与えるべきだ。; ぜんいんに{こうへい}なちゃんすをあたえるべきだ。; Everyone should be given a fair chance."
+		}
+	  ],
+	  "kunyomi_sentences": [
+		{
+		  "word": "{平たい} ; {ひらたい} ; flat",
+		  "sentence": "この皿はとても{平たい}です。; このさらはとても{ひらたい}です。; This plate is very flat."
+		},
+		{
+		  "word": "{平ら} ; {たいら} ; flat, level",
+		  "sentence": "{平ら}な道を歩きましょう。; {たいら}なみちをあるきましょう。; Let’s walk on the flat road."
+		}
+	  ],
+	  "lookalike_kanji": "干 ; 半",
+	  "jlpt": "N3"
+	},
+	{
+	  "kanji": "加",
+	  "meaning": "add, increase, join",
+	  "onyomi": "か",
+	  "kunyomi": "くわ",
+	  "mnemonic": "力(strong) + 口(mouth) when many people add/join their voice the sound increase",
+	  "onyomi_sentences": [
+		{
+		  "word": "{追加} ; {ついか} ; addition",
+		  "sentence": "注文にドリンクを{追加}しました。; ちゅうもんにどりんくを{ついか}しました。; I added a drink to the order."
+		},
+		{
+		  "word": "{参加} ; {さんか} ; participation",
+		  "sentence": "そのイベントに{参加}しますか？; そのいべんとに{さんか}しますか？; Will you participate in the event?"
+		},
+		{
+		  "word": "{加速} ; {かそく} ; acceleration",
+		  "sentence": "車が急に{加速}しました。; くるまがきゅうに{かそく}しました。; The car suddenly accelerated."
+		},
+		{
+		  "word": "{加工} ; {かこう} ; processing, manufacturing",
+		  "sentence": "この肉はすでに{加工}されています。; このにくはすでに{かこう}されています。; This meat is already processed."
+		}
+	  ],
+	  "kunyomi_sentences": [
+		{
+		  "word": "{加える} ; {くわえる} ; to add, to include",
+		  "sentence": "砂糖を少し{加えて}ください。; さとうをすこし{くわえて}ください。; Please add a little sugar."
+		},
+		{
+		  "word": "{加わる} ; {くわわる} ; to join, to be added",
+		  "sentence": "新しいメンバーがチームに{加わりました}。; あたらしいめんばーがちーむに{くわわりました}。; A new member joined the team."
+		}
+	  ],
+	  "lookalike_kanji": "力",
+	  "jlpt": "N3"
 	}
 ]
